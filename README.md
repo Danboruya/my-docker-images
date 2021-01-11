@@ -3,6 +3,7 @@
 ## Discription
 
 This repository has some docker file for developping enviroment which I use in my projects.
+(Including those to be used in the future)
 
 ## Includes
 
@@ -11,6 +12,10 @@ This repository contains Dockerfile or docker-compose files for use in the follo
 * node
 * mysql
 * etc...
+
+## NOTE
+
+Because I'm beginner of Docker, this repository maybe contain many mistakes or misunderstandings.
 
 ## LICENSE
 
