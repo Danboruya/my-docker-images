@@ -1,0 +1,14 @@
+{
+    "name": "Python",
+    "dockerFile": "../Dockerfile",
+    "context": "..",
+    "remoteUser": "python",
+    "settings": {
+        "terminal.integrated.shell.linux": "/usr/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+    ],
+
+}
