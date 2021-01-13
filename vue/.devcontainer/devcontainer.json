@@ -1,0 +1,15 @@
+{
+    "name": "Vue",
+    "dockerComposeFile": "../docker-compose.yml",
+    "remoteUser": "node",
+    "workspaceFolder": "/Workspace",
+    "settings": {
+        "terminal.integrated.shell.linux": "/usr/bin/bash"
+    },
+    "extensions": [
+        "octref.vetur",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+    ],
+
+}
