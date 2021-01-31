@@ -11,3 +11,4 @@ USER golang
 ENV HOME /home/golang
 ENV GOPATH /home/golang/go
 ENV GO111MODULE on
+COPY .devcontainer/.bashrc /home/golang/
