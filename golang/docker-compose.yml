@@ -6,4 +6,6 @@ services:
     stdin_open: true
     command: /bin/bash
     volumes:
-      - .:/go/src/work
+      - .:/home/golang/go/src/work
+    environment:
+    - "GOPATH=/home/golang/go"
