@@ -1,14 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.155.1/containers/go
 {
-    "name": "Python",
-    "dockerFile": "../Dockerfile",
-    "context": "..",
-    "remoteUser": "python",
-    "settings": {
-        "terminal.integrated.shell.linux": "/usr/bin/bash"
-    },
-    "extensions": [
-        "ms-python.python",
-        "ms-toolsai.jupyter",
-    ],
+	"name": "Python",
+	"dockerComposeFile": ["../docker-compose.yml"],
+  	"service": "app" ,
+  	"workspaceFolder": "/home/python/work",
+	
 
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python",
+		"visualstudioexptteam.vscodeintellicode",
+		"ms-toolsai.jupyter",
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "go version",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "python"
 }
