@@ -9,8 +9,10 @@ This repository has some docker file for developping enviroment which I use in m
 
 This repository contains Dockerfile or docker-compose files for use in the following types of projects:
 
-* node
-* mysql
+* vue.js
+* golang
+* python
+* dotnet
 * etc...
 
 ## NOTE
