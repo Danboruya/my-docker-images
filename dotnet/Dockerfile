@@ -9,4 +9,5 @@ RUN chown -R dotnet:dotnet /home/dotnet/work
 USER dotnet
 
 ENV HOME /home/dotnet
+COPY .devcontainer/.vimrc /home/dotnet/
 COPY .devcontainer/.bashrc /home/dotnet/
